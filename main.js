@@ -6,7 +6,7 @@ const myResult = document.querySelector(".result");
 
 resultBtn.addEventListener("click",
 function (){
-let myValue = "goodbye world";
+let myValue = "Goodbye World";
 myResult.innerHTML = myValue;
 }
 , false);
