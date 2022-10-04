@@ -1,0 +1,50 @@
+body{
+background-color: rgb(30, 30, 30);
+font-family: 'Noto Sans Mono', monospace
+}
+.flex-container{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+
+}
+
+h1{
+    display: flex;
+    color: rgb(160, 125, 0);
+    justify-content: center;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background-color: rgb(20, 20, 20);
+    color:rgb(100, 100, 100)
+    
+
+}
+p{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    width: 48%;
+    margin-inline: 1%;
+    
+}
+p:hover{
+    background-color: rgb(50, 50, 50);;
+}
+img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    height: 15%;
+
+}
+img:hover{
+    outline: auto;
+    outline-style: inset;
+}
